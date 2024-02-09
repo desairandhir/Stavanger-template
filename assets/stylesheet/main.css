@@ -6,3 +6,74 @@ body {
 }
 
 /* Custom css */
+ /* Exceptional Section Started  */
+@media screen and (max-width: 768px) {
+    .exceptionalContentWrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30px;  
+    }
+    .exceptional_content h2{
+        font-size: 2rem;
+    }
+    .exceptional_img{
+        margin-top: 20px;
+    }
+}
+
+.exceptionalContentWrapper{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.exceptional_img,
+.exceptional_content{
+    width: 50%;
+}
+
+.exceptionalContentWrapper img{
+    width: 90%;
+    margin-right: 10px;
+    border-radius: 2rem;
+}
+
+.exceptional_content h2{
+    font-size: 4rem;
+    line-height: 4rem;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 400;
+}
+
+.exceptional_content p{
+    font-size: 1.2rem;
+    font-weight: 280;
+    line-height: 1.2rem;
+    margin: 20px 0;
+}
+
+.done_list{
+    display: flex;
+    align-items: center;
+}
+
+.doneListWrapper img{
+    width: 20px;
+}
+
+.learn_more {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #9AD9E8;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.learn_more:hover {
+    color: #9AD9E8;
+    background-color: #277A8C; 
+}
+  /* Exceptional Section Ended  */
