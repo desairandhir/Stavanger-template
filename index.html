@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,37 +8,105 @@
     <link rel="stylesheet" href="./assets/stylesheet/main.css">
     <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700,1,300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header></header>
+    <header class="header">
+        <img class="logo" src="./assets/images/stavanger_logo.svg" alt="">
+        <div class="navigation">
+            <div class="navbar_menu_left">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <div id="nav_ser_wrap" class="nav_service_wrapper">
+                    <div>Services</div>
+                    <div id="nav_dropdw_img">
+                        <img class="nav_serv_img" src="./assets/images/dropdown-arrow-navbar.svg" alt="">
+                    </div>
+                    <div class="nav_dropdown">
+                        <div class="nav_dropdown_list">
+                            <img src="./assets/images/dropdown_tooth.svg" alt="">
+                            <div class="list_content_wrap">
+                                <h3>Checkups and Cleanings</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="nav_dropdown_list">
+                            <img src="./assets/images/dropdown_tooth.svg" alt="">
+                            <div class="list_content_wrap">
+                                <h3>Teeth Whiteninig </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="nav_dropdown_list">
+                            <img src="./assets/images/dropdown_tooth.svg" alt="">
+                            <div class="list_content_wrap">
+                                <h3>Dental Fillings</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Blog</a>
+            </div>
+            <div class="navbar_menu_right">
+                <button class="common_btn">Book an appointment</button>
+            </div>
+        </div>
+        <div class="nav_hamburger">
+            <img src="./assets/images/hamburger-menu.svg" alt="">
+        </div>
+    </header>
     <main>
+        <!-- Hero Section start -->
+        <section class="container hero">
+            <div class="hero_content">
+                <div class="subheading">
+                    <div class="subheading_icon"></div>
+                    <div>WELCOME TO STAVANGER DENTIS</div>
+                </div>
+                <h1>Your Smile Matters to Us</h1>
+                <p>Experience compassionate dental care tailored to your needs. Schedule your appointment today and
+                    discover the difference a healthy smile can make in your life.</p>
+                <div class="hero_btn_wrap">
+                    <a class="common_btn book_btn" href="#">Book an appointment</a>
+                    <a class="common_btn call_btn" href="#">Call us: +123456789</a>
+                </div>
+            </div>
+            <div class="hero_img">
+                <img src="./assets/images/hero_section_image.webp" alt="">
+            </div>
+        </section>
+        <!-- Hero Section end -->
         <!-- Exceptional Section Started -->
-         <section class="exceptionalContentWrapper">
+        <section class="exceptionalContentWrapper">
             <div class="exceptional_img">
-                <img src="https://assets-global.website-files.com/659e9959f59d6280c6169021/65a118317c08c162c90d7c42_pexels-cedric-fauntleroy-4270095-p-800.webp" alt="Img">
+                <img src="https://assets-global.website-files.com/659e9959f59d6280c6169021/65a118317c08c162c90d7c42_pexels-cedric-fauntleroy-4270095-p-800.webp"
+                    alt="Img">
             </div>
             <div class="exceptional_content">
                 <h2>Exceptional Dentistry, Personalized Care</h2>
-                <p>At Stavanger, we prioritize your dental health and comfort. With a focus on delivering quality care in a friendly environment, our team is dedicated to creating beautiful, healthy smiles that last a lifetime.</p>
-                <div class="doneListWrapper">   
-                 <div class="done_list">
-                     <img src="./assets/Images/icons8-tick-box-16.png" alt="doneimg">
-                     <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
-                 </div>
-                 <div class="done_list">
-                     <img src="./assets/Images/icons8-tick-box-16.png" alt="doneimg">
-                     <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
-                 </div>
-                 <div class="done_list">
-                     <img src="./assets/Images/icons8-tick-box-16.png" alt="doneimg">
-                     <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
-                 </div>
-                 <button class="learn_more">Learn more</button>
-                 </div> 
+                <p>At Stavanger, we prioritize your dental health and comfort. With a focus on delivering quality care
+                    in a friendly environment, our team is dedicated to creating beautiful, healthy smiles that last a
+                    lifetime.</p>
+                <div class="doneListWrapper">
+                    <div class="done_list">
+                        <img src="./assets/Images/icons8-tick-box-16.png" alt="doneimg">
+                        <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
+                    </div>
+                    <div class="done_list">
+                        <img src="./assets/Images/icons8-tick-box-16.png" alt="doneimg">
+                        <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
+                    </div>
+                    <div class="done_list">
+                        <img src="./assets/Images/icons8-tick-box-16.png" alt="doneimg">
+                        <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
+                    </div>
+                    <button class="learn_more">Learn more</button>
+                </div>
             </div>
-         </section>
-         <!-- Exceptional Section Ended -->
-
+        </section>
+        <!-- Exceptional Section Ended -->
     </main>
     <footer></footer>
 </body>
+
 </html>
