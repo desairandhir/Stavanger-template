@@ -1014,3 +1014,28 @@ body {
 }
 
 /* Blog section end */
+/* Footer Section start*/
+.footer{
+    width: 100%;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.social_media a{
+    padding: 0px 10px;
+}
+.footer_content a{
+    color: black;
+}
+@media screen and (max-width:479px) {
+    .footer_bottom{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_content{
+        margin: 7px 0px;
+    }
+}
+/* Footer Section end */
