@@ -6,10 +6,8 @@ body {
 }
 
 /* Custom css */
-
-
-
-  .header {
+/* Head and Hero section start */
+.header {
     width: 100%;
     display: flex;
     align-items: center;
@@ -33,6 +31,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .navbar_menu_left a {
     text-decoration: none;
     color: #222;
@@ -294,46 +293,47 @@ body {
     }
 }
 
- /* Exceptional Section Started  */
+/* Head, hero section end */
 
+/* Exceptional Section Started  */
 
-.exceptionalContentWrapper{
+.exceptionalContentWrapper {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 24px;
 }
 
 .exceptional_img,
-.exceptional_content{
+.exceptional_content {
     width: 48%;
 }
 
-.exceptionalContentWrapper img{
+.exceptionalContentWrapper img {
     width: 100%;
     border-radius: 2rem;
 }
 
-.exceptional_content h2{
+.exceptional_content h2 {
     font-size: 4rem;
     line-height: 4rem;
     font-family: 'Clash Display', sans-serif;
     font-weight: 400;
 }
 
-.exceptional_content p{
+.exceptional_content p {
     font-size: 1.2rem;
     font-weight: 280;
     line-height: 1.2rem;
     margin: 20px 0;
 }
 
-.done_list{
+.done_list {
     display: flex;
     align-items: center;
 }
 
-.doneListWrapper img{
+.doneListWrapper img {
     width: 20px;
     height: 20px;
 }
@@ -350,36 +350,161 @@ body {
 
 .learn_more:hover {
     color: #9AD9E8;
-    background-color: #277A8C; 
+    background-color: #277A8C;
 }
+
 @media screen and (max-width: 768px) {
-    .exceptionalContentWrapper{
+    .exceptionalContentWrapper {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 30px;  
+        margin-top: 30px;
     }
-    .exceptional_content{
+
+    .exceptional_content {
         width: 100%;
         padding: 40px 40px;
     }
-    .exceptional_content h2{
+
+    .exceptional_content h2 {
         font-size: 2rem;
     }
-    .exceptional_img{
+
+    .exceptional_img {
         width: 100%;
         margin-top: 20px;
     }
 }
+
 @media screen and (max-width:479px) {
-    .exceptional_content h2{
+    .exceptional_content h2 {
         line-height: 2rem;
     }
-    .exceptional_content p{
+
+    .exceptional_content p {
         font-size: 1rem;
     }
-    .done_list p{
+
+    .done_list p {
         line-height: 1;
     }
 }
-  /* Exceptional Section Ended  */
-  
+
+/* Exceptional Section Ended  */
+/* Our Services section start */
+
+.services {
+    padding: 3.2rem 2.5rem;
+    background-color: #277A8C;
+}
+
+.serv_subhead {
+    color: #A7E4F2;
+}
+
+.subh_icon {
+    background-color: #a7e4f2;
+}
+.service_head_wrap{
+    width: 100%;
+    max-width: 48rem;
+}
+.service_head_wrap h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.service_head_wrap p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.3;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+.services_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 4rem;
+    align-items: start;
+    justify-items: start;
+}
+.services_items{
+    width: 100%;
+    flex-direction: column;
+}
+.services_icons img{
+    height: 36px;
+    width: 36px;
+}
+.services_icons{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #a7e4f2;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.services_items h3{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 1.5rem 0;
+    color: #ffffff;
+}
+.services_items p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.services_items a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #a7e4f2;
+    margin-top: 40px;
+}
+.arrow_icon_wrap{
+    margin-right: 5px;
+}
+.arrow_icon_wrap img{
+    height: 30px;
+    width: 30px;
+}
+@media screen and (max-width:990px) {
+    .services_list{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 768px) {
+    .service_head_wrap h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .services_items p{
+        font-size: 1.125;
+    }
+}
+@media screen and (max-width:479px) {
+    .service_head_wrap h2{
+        font-size: 2.2rem;
+    }
+    .services_items p{
+        font-size: 1.125rem;
+    }
+}
+@media screen and (max-width:375px) {
+    .service_head_wrap p{
+        font-size: 1.125rem;
+    }
+    .services_items p{
+        font-size: 1.125rem;
+    }
+}
+/* Our services section end */
