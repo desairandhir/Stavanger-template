@@ -834,6 +834,7 @@ body {
 }
 
 /* Why us Section Ended  */
+
 /* Reach Out Section Started */
 
 .reach_out_wrapper {
@@ -990,7 +991,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 @media screen and (max-width:990px) {
     .blog_list {
         grid-template-columns: 1fr;
@@ -1014,7 +1014,106 @@ body {
 }
 
 /* Blog section end */
+
+/* Stavanger Section Started */
+
+.stavangerWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.stavanger_main1,
+.stavanger_main2{
+    width:50%;
+}
+
+.stavanger_services{ 
+    width: 50%;
+}
+
+.stavanger_link{
+    width: 25%;
+}
+
+.stavanger_resources{
+    width: 25%;
+}
+
+.stavanger_main2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.stavanger_main{
+    display: flex;
+    flex-direction: column;
+}
+.stavanger_main img{
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.stavanger_main p{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.stavanger_main a{
+    text-decoration: none;
+    color: #9AD9E8;
+}
+.service_list,
+.link_list,
+.resources_list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.service_list a,
+.link_list a,
+.resources_list a{
+    text-decoration: none;
+    color: black;
+    margin: 5px 0;
+}
+
+.stavanger_main2 a:hover{
+    color: #277A8C;
+}
+
+.stavanger_main2 h5{
+    font-size: 1.125rem ;
+    font-weight: 500;
+}
+
+.stavanger_email {
+    display: flex;
+    align-items: center;
+}
+.stavanger_email img{
+    width: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 990px) {
+
+    .stavangerWrapper{
+        flex-direction: column;
+    }
+    .stavanger_main1,
+    .stavanger_main2{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+/* Stavanger Section Ended */
+
 /* Footer Section start*/
+
 .footer{
     width: 100%;
 }
@@ -1028,6 +1127,10 @@ body {
 }
 .footer_content a{
     color: black;
+}
+
+.footer_bottom a:hover{
+    color: #277A8C;
 }
 @media screen and (max-width:479px) {
     .footer_bottom{
