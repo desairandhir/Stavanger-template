@@ -48,10 +48,10 @@ body {
     align-items: center;
     cursor: pointer;
 }
-
-#nav_ser_wrap:hover+.nav_dropdown {
-    display: block;
+.dropdown_wrapper{
+    display: flex;
 }
+
 
 .nav_dropdown {
     width: 80%;
@@ -59,7 +59,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0px 80px;
-    margin-top: 250px;
+    margin-top: 50px;
     margin-left: -280px;
     background-color: white;
     display: none;
@@ -68,6 +68,10 @@ body {
 .nav_dropdown_list {
     width: 30%;
     display: flex;
+}
+.dropdown_wrapper:hover .nav_dropdown {
+    display: block;
+
 }
 
 .nav_dropdown_list img {
